@@ -34,7 +34,8 @@
                 <label class="form-control-label">Result</label>
                 <input type="text" name="result" class="form-control w-25 mx-auto my-3" autocomplete="off" value="<?php echo $result?>" disabled  id="result">
                 <a href="<?php echo $_SERVER['PHP_SELF'] ?>" class="nav-link">Go Back</a>
-                <a href="/" class="nav-link">Go Back to Main Page</a>
+                <!-- <a href="/" class="nav-link">Go Back to Main Page</a> for github push -->
+                <a href="/../form-handling" class="nav-link">Go Back to Main Page</a> <!-- for local testing -->
             </form>
        <?php }else{?>
             <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="get" class="container my-5 py-5 rounded text-center bg-warning">
@@ -52,14 +53,5 @@
      ?>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script>
-
-        document.getElementById("reset").addEventListener("click",clear);
-
-        function clear() {
-            document.getElementById("inputValue").removeAttribute("disabled");
-            document.getElementById("result").removeAttribute("disabled");
-        }
-    </script> -->
 </body>
 </html>
