@@ -15,6 +15,7 @@
         echo "Last Name : ".$_GET['lastname']."<br><br>";
     ?>
     <a href="form.php" class="nav-link"> &lt;&lt; Go Back</a>
+    <a href="/" class="nav-link">Go Back to Main Page</a> <!-- for github push -->
     </div>
     </div>
     
