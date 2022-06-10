@@ -34,7 +34,7 @@
                 <label class="form-control-label">Result</label>
                 <input type="text" name="result" class="form-control w-25 mx-auto my-3" autocomplete="off" value="<?php echo $result?>" disabled  id="result">
                 <a href="<?php echo $_SERVER['PHP_SELF'] ?>" class="nav-link">Go Back</a>
-                <a href="/../form-handling" class="nav-link">Go Back to Main Page</a>
+                <a href="/" class="nav-link">Go Back to Main Page</a>
             </form>
        <?php }else{?>
             <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="get" class="container my-5 py-5 rounded text-center bg-warning">
