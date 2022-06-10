@@ -42,7 +42,7 @@
             <h2 class="my-3 py-3">Weight Converter</h2>
             <label>Choose a unit to convert :</label>
             <input type="radio" name="unit" value="kg" class="form-check-input" checked="checked"> Pounds to Kgs
-            <input type="radio" name="unit" value="pound" class="form-check-input">Kgs to Pounds <br>
+            <input type="radio" name="unit" value="pound" class="form-check-input"> Kgs to Pounds <br>
             <label class="form-control-label mt-3">Input Value</label>
             <input type="text" name="inputValue" class="form-control w-25 mx-auto my-3" autocomplete="off">
             <!-- <label class="form-control-label">Result</label>
