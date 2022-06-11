@@ -45,6 +45,7 @@
                     </select>
                     <label class="font-weight-bold ml-3 py-2 px-5"><?php echo $result; ?></label>
                 </div>
+                <a href="<?php echo $_SERVER['PHP_SELF'] ?>" class="nav-link my-3">Calculate More</a>
                 <a href="/" class="nav-link">Go Back to Main Page</a> <!-- for github push -->
                 <!-- <a href="/../form-handling" class="nav-link">Go Back to Main Page</a> for local testing -->
             </fieldset>
