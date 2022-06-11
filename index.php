@@ -8,10 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Home Page</title>
 </head>
-<body>
+<body class="bg-warning">
     <div class="container my-5 py-5">
-        <a href="form.php">Form Basis</a> <br>
-        <a href="weight_converter.php">Weight Converter</a> <br>
+        <h3 class="text-center text-uppercase">Click on a link to test the program</h3>
+        <a class="nav-link text-primary" href="form.php">Form Basis</a> <br>
+        <a class="nav-link text-primary" href="calculator.php">Simple Calculator</a> <br>
+        <a class="nav-link text-primary" href="weight_converter.php">Weight Converter</a> <br>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
