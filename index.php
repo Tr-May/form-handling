@@ -14,6 +14,7 @@
         <a class="nav-link text-primary" href="form.php">Form Basis</a> <br>
         <a class="nav-link text-primary" href="calculator.php">Simple Calculator</a> <br>
         <a class="nav-link text-primary" href="weight_converter.php">Weight Converter</a> <br>
+        <a class="nav-link text-primary" href="file_upload.php">File Upload</a> <br>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
